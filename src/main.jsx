@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import {
   createBrowserRouter, RouterProvider, useLoaderData, defer, Await,
 } from 'react-router-dom';
-import App from './App';
 import PagesLayout from './components/pagesLayout';
 import './index.css';
 
@@ -34,11 +33,6 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <PagesLayout />,
-    errorElement: <ErrorElem />,
-  },
-  {
-    path: '/app',
-    element: <App />,
     errorElement: <ErrorElem />,
   },
   {

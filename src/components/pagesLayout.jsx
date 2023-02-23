@@ -1,4 +1,5 @@
 import React from 'react';
+import BottomNav from './bottomNav';
 
 class PagesLayout extends React.Component {
   constructor(props) {
@@ -9,8 +10,9 @@ class PagesLayout extends React.Component {
   render() {
     return (
       <>
-        <header><nav>Nav</nav></header>
+        <header><h1>WithChat</h1></header>
         <main><h2>Pages Layout</h2></main>
+        <BottomNav />
       </>
     );
   }

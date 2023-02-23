@@ -22,6 +22,7 @@
         "no-shadow": "off",
         "react/function-component-definition": "off",
         "react/prefer-stateless-function": "off",
-        "linebreak-style": "off"
+        "linebreak-style": "off",
+        "no-restricted-syntax": "off"
     }
 }
